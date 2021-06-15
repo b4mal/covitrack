@@ -1,0 +1,26 @@
+.navbar {
+  padding: 10px 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+.navbar__brand {
+  color: #fc3c3c;
+  text-decoration: none;
+}
+
+.navbar__brand:hover {
+  color: #060653;
+}
+
+.navbar__item {
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar__item:hover {
+  color: #060653;
+  text-decoration: underline;
+}

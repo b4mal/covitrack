@@ -1,0 +1,28 @@
+.about {
+  text-align: center;
+  background: linear-gradient(to bottom right, #a679e0, #390281);
+  min-height: 90vh;
+}
+
+.about__header {
+  color: #060653;
+  padding: 1rem;
+}
+
+.about__content{
+  width: 80%;
+  background: rgba(200, 200, 200, 0.2);
+  margin: 3rem auto 0 auto;
+  padding: 2rem;
+  border-radius: 18px;
+}
+
+@media (min-width: 990px) {
+  .about__header {
+    padding: 2rem;
+    font-size: 1.75rem;
+  }
+  .about__content{
+    font-size: 1.25rem;
+  }
+}

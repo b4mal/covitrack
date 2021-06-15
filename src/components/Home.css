@@ -1,0 +1,58 @@
+.home {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.home__left {
+  flex: 0.8;
+}
+
+.home__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home__header > h1 {
+  color: #060653;
+  font-size: 2rem;
+}
+
+.home__dropdown {
+  background: white;
+}
+
+.home__stats {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home__graph {
+  padding: 20px 0;
+  text-align: center;
+  /* background: lightcoral; */
+}
+
+.home__graph--title {
+  text-align: center;
+  margin: 15px 0;
+  color: #060653 !important;
+}
+
+.home__information > h3 {
+  color: #6a5d5d;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 990px) {
+  .home {
+    flex-direction: column;
+  }
+  .home__graph--title {
+    font-size: 14px;
+  }
+}
